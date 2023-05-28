@@ -31,7 +31,6 @@ for i in range(classes):
 #Converting lists into numpy arrays
 data = np.array(data)
 labels = np.array(labels)
-
 print(data.shape, labels.shape)
 
 #Splitting training and testing dataset
