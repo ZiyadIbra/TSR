@@ -108,4 +108,4 @@ pred_probs = model.predict(X_test)
 pred = np.argmax(pred_probs, axis=1)
 
 # Accuracy with the test data
-print(" accuracy is : "+accuracy_score(labels, pred))
+print("Accuracy is: " + str(accuracy_score(labels, pred)))
